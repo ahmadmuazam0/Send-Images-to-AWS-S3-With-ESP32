@@ -44,7 +44,7 @@ static esp_err_t take_send_photo()
    String Time =  String(timeClient.getEpochTime());
    Serial.print("Time:" );  Serial.print(Time);
 
-   String post_url2 = "https://5czka9sl51.execute-api.eu-central-1.amazonaws.com/Dev/gdo-pic-data/" + Time + ".jpg"; // Location where images are POSTED
+   String post_url2 = "https://5czka9sl51.execute-api.eu-central-1.amazon-----------/" + Time + ".jpg"; // Location where images are POSTED
    char post_url3[post_url2.length() + 1];
    post_url2.toCharArray(post_url3, sizeof(post_url3));
   
