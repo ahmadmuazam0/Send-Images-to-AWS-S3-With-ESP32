@@ -1,3 +1,6 @@
+//////////REFER TO READ ME DOCUMENT//////////////////////////
+
+
 #include "esp_http_client.h"        //// Initialize the HTTP client for esp
 #include "esp_camera.h"            //// Initialize the camera 
 #include <WiFi.h>                 //// Initialize the WiFi in ESP32
