@@ -21,3 +21,13 @@ capture_interval =
 
 To change the pin number for trigerring event at line 
 #define eventtriger =12 to your desired number.
+
+
+
+Make sure you have these libraries installed or just Download the required Libraries
+NTPclient.h
+Base64.h
+WiFiUdp.h
+esp_http-client.h
+esp_camera.h
+mbedtls/base64.h
