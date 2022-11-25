@@ -14,14 +14,14 @@ int triger=0;       // Variable to sense the single input
   ========================================================*/
 // Change the WIFI name and password
 
-const char* ssid = "Epazz2FOffice4-2G";
-const char* password = "epazzlahore";
+const char* ssid = "**********";
+const char* password = "******";
 
 // Microseconds between captures whne event occurs
-const int capture_interval = 10000; 
+const int capture_interval = 10000;     // Delay time to take next photo
 //  Number of pictures to be taken when event occours
-int capture_count = 5;        
-#define eventtriger 12      // It's IO12 pin of ESP32-CAm module
+int capture_count = 5;         // Take 5 pictures with the delay of capture_interval
+#define eventtriger 12      // It's IO12 pin of ESP32-CAm module to trigger event or you can add button
 
 
 
